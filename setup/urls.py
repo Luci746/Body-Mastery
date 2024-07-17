@@ -4,6 +4,6 @@ import usuarios.urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(usuarios.urls)),
+    path('usuarios/', include(usuarios.urls)),
 
 ]
