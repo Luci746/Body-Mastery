@@ -1,4 +1,4 @@
-@set "VIRTUAL_ENV=M:\Projetos_estudo\PYTHON\Projeto de Consultoria personal treiner\main\venv"
+@set "VIRTUAL_ENV=M:\Projetos_estudo\PYTHON\Projeto de Consultoria personal treiner\branch matheus\venv"
 
 @set "VIRTUAL_ENV_PROMPT="
 @if NOT DEFINED VIRTUAL_ENV_PROMPT (

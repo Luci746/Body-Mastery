@@ -58,7 +58,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV 'M:\Projetos_estudo\PYTHON\Projeto de Consultoria personal treiner\main\venv'
+set -gx VIRTUAL_ENV 'M:\Projetos_estudo\PYTHON\Projeto de Consultoria personal treiner\branch matheus\venv'
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (echo $FISH_VERSION | head -c 1) -lt 3

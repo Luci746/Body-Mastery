@@ -32,7 +32,7 @@ export-env {
       }
     }
 
-    let virtual_env = 'M:\Projetos_estudo\PYTHON\Projeto de Consultoria personal treiner\main\venv'
+    let virtual_env = 'M:\Projetos_estudo\PYTHON\Projeto de Consultoria personal treiner\branch matheus\venv'
     let bin = 'Scripts'
 
     let is_windows = ($nu.os-info.family) == 'windows'
