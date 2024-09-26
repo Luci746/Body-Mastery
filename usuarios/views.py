@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # view cadastro
 def cadastro(request):
-    return render(request, 'index.html')
+    return render(request, 'cadastro.html')
