@@ -1,0 +1,18 @@
+*{
+    
+}
+header{
+    background-image: linear-gradient(to right,#F5680B,#EC5516,#EC3016);
+}
+h1,h2,h3,span{
+    color: aliceblue;
+}
+.nav-link{
+    color: aliceblue;
+}
+.btn{
+    color: aliceblue;
+}
+p{
+    color: black;
+}
