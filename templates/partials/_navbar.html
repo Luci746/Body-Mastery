@@ -1,0 +1,23 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'navbar/css/navbar.css' %}">
+
+
+<div class="conteiner">
+    <nav class="navbar navbar-expand-lg">
+        <img id="icon-logo" src="{% static 'navbar/images/logo.png' %}" alt="Logo do site com coração e uma aninlha">
+
+        <div class="text-nav">
+            <table>
+                <tr>
+                    <a href="#">Home</a>
+                    <a href="#">Dashboard</a>
+                    <a href="#">Contato</a>
+                </tr>
+            </table>
+        </div>
+
+
+        <img id="icon-perfil" src="{% static 'navbar/images/perfil.png' %}" alt="Logo de perfil do usuário">
+    </nav>
+</div>

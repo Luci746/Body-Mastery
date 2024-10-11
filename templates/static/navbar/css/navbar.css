@@ -1,0 +1,25 @@
+.conteiner {
+    background-image: linear-gradient(to right, #F5680B, #EC5116, #EC3016);
+}
+
+#icon-logo {
+    width: 3%;
+    margin: auto;
+    margin-left: 1%;
+}
+
+#icon-perfil {
+    width: 2%;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.text-nav {
+    margin-left: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5%;
+}
