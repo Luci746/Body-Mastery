@@ -2,29 +2,34 @@
     background-image: linear-gradient(to right, #F5680B, #EC5116, #EC3016);
 }
 
-.sobre-nos {
-    margin-left: 25%;
-    margin-top: 3%;
-}
-
-.sobre-nos label {
+.container-footer label{
     font-family: "Karla", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-size: 25px;
     font-style: normal;
     color: white;
+}
 
+.container-footer p{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
+    color: white;
+}
+
+.sobre-nos {
+    margin-left: 5%;
+    margin-top: 3%;
+}
+
+.sobre-nos label {
     margin-bottom: 20px;
 }
 
 .sobre-nos p {
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-
     margin-top: -10px;
 }
 
@@ -40,23 +45,10 @@
 }
 
 .institucional label {
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-size: 25px;
-    font-style: normal;
-    color: white;
-
     margin-bottom: 20px;
 }
 
 .institucional p {
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-
     margin-top: -30px;
 }
 
@@ -66,23 +58,10 @@
 }
 
 .mais label {
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-size: 25px;
-    font-style: normal;
-    color: white;
-
     margin-bottom: 20px;
 }
 
 .mais p {
-    font-family: "Karla", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-
     margin-top: -30px;
 }
 
