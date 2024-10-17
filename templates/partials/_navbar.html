@@ -17,7 +17,9 @@
             </table>
         </div>
 
-
-        <img id="icon-perfil" src="{% static 'navbar/images/perfil.png' %}" alt="Logo de perfil do usuário">
+        <div class="btn-group">
+            <a href="{% url 'login' %}" class="btn btn-outline-light" aria-current="page">Login</a>
+            <a href="{% url 'cadastro' %}" class="btn btn-light  active">Cadastro</a>
+          </div>
     </nav>
 </div>

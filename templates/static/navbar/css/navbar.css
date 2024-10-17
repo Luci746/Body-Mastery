@@ -16,6 +16,11 @@
 
 .text-nav {
     margin-left: 50%;
+    margin-right: 3%;
+}
+
+.btn-group {
+    margin-right: 2%;
 }
 
 a {

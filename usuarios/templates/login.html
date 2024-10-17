@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block 'title' %} Cadastro {% endblock 'title' %}
+
+{% block 'head' %}
+<link rel="stylesheet" href="{% static 'usuarios/css/login.css' %}"> {% endblock 'head' %}
+{% block 'main' %}
+
+<div class="container">
+    <div class="titulo-login">
+        <p>Login</p>
+    </div>
+</div>
+
+<div class="container">
+    <form action="#" method="post" class="login-input-group"> {% csrf_token %}
+        <div class="nome-input">
+            <img src="{% static 'usuarios/images/user.png' %}" alt="">
+            <input type="text" placeholder="Digite seu nome">
+        </div>
+        <div class="senha-input">
+            <img src="{% static 'usuarios/images/lock.png' %}" alt="">
+            <input type="text" placeholder="Digite sua senha">
+            <br>
+            <a href="#">Esqueci a senha.</a>
+        </div>
+        <div class="botao-logar">
+            <button type="submit">Logar</button>
+            <br>
+            <br>
+            <div class="opcoes-botao">
+                <p>OU</p>
+                <a href="{% url 'cadastro' %}">Cadastre-se</a>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="container">
+    <form action="#" method="post" class="logar-outra-maneira-group"> {% csrf_token %}
+        <div class="text-outra-maneira">
+            <p>Se preferir,</p>
+            <p>tente de outra maneira!</p>
+        </div>
+        <div class="facebook-login">
+            <button type="submit"><img src="{% static 'usuarios/images/facebook.png' %}" alt=""></img>Entrar com
+                Facebook</button>
+
+        </div>
+        <div class="google-login">
+            <button type="submit"><img src="{% static 'usuarios/images/google.png' %}" alt=""></img>Entrar com
+                Google</button>
+        </div>
+        <div class="apple-login">
+            <button type="submit"><img src="{% static 'usuarios/images/apple.png' %}" alt=""></img>Entrar com
+                Apple</button>
+        </div>
+    </form>
+    <br><br><br><br><br><br><br>
+</div>
+{% endblock 'main' %}

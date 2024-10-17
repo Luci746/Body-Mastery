@@ -6,8 +6,8 @@
 
 {% block 'head' %}
 <link rel="stylesheet" href="{% static 'usuarios/css/cadastro.css' %}"> {% endblock 'head' %}
-
 {% block 'main' %}
+
 <div class="container">
     <div class="titulo-cadastro">
         <p>Cadastro</p>
@@ -32,7 +32,7 @@
             <button type="submit">Cadastrar</button>
             <br>
             <br>
-            <a href="#">Já tenho login.</a>
+            <a href="{% url 'login' %}">Já tenho login.</a>
         </div>
     </form>
 </div>
@@ -40,8 +40,8 @@
 <div class="container">
     <form action="#" method="post" class="cadastro-outra-maneira-group"> {% csrf_token %}
         <div class="text-outra-maneira">
-            <p>Não conseguiu?</p>
-            <p>Tente de outra maneira</p>
+            <p>Se preferir,</p>
+            <p>tente de outra maneira!</p>
         </div>
         <div class="facebook-login">
             <button type="submit"><img src="{% static 'usuarios/images/facebook.png' %}" alt=""></img>Entrar com Facebook</button>
