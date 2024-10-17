@@ -1,0 +1,107 @@
+.titulo-contato p {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 760%;
+    color: white;
+
+
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #f0630b;
+
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.email-input-group { 
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.email-input-group input {
+    background-color: #cfcfcf;
+    border: none;
+    width: 500px;
+    height: 50px;
+    align-content: center;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-top: 3%;
+    /* box-shadow: 1px 2px 20px #323232; */
+}
+
+.email-input-group textarea {
+    background-color: #cfcfcf;
+    border: none;
+    width: 500px;
+    height: 100px;
+    align-content: center;
+    border-radius: 10px;
+    margin-left: 4%;
+    margin-top: 3%;
+    /* box-shadow: 1px 2px 20px #323232; */
+}
+
+.user-input input {
+    height: 250px;
+}
+
+.email-input-group img {
+    width: 35px;
+}
+
+.botao-enviar-mensagem button {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: #362D25;
+
+    background-color: #58e27f;
+    border-radius: 40px;
+    width: 500px;
+    height: 50px;
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 46px;
+    
+}
+
+.text-whatsapp p {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    text-align: center;
+    color: #362D25;
+
+    margin-top: 2%;
+    margin-left: 46px;
+}
+
+.whatsappp-mensagem {
+    text-align: center;
+    margin-top: -2%;
+    margin-bottom: 5%;
+}
+
+.whatsappp-mensagem button {
+    background-color: #cfcfcf;
+    border: none;
+    width: 500px;
+    height: 50px;
+    align-content: center;
+    border-radius: 10px;
+    margin-left: 46px;
+    margin-top: 3%;
+}
+
+.whatsappp-mensagem img {
+    width: 35px;
+    margin-right: 20px;
+}

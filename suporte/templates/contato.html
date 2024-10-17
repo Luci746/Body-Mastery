@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block 'title' %} Contato {% endblock 'title' %}
+
+{% block 'head' %}
+<link rel="stylesheet" href="{% static 'suporte/css/contato.css' %}">    
+{% endblock 'head' %}
+
+
+{% block 'main' %}
+
+<div class="container">
+    <div class="titulo-contato">
+        <p>Contato</p>
+    </div>
+</div>
+
+<div class="container">
+    <form action="#" method="post" class="email-input-group"> {% csrf_token %}
+        <div class="user-email-input">
+            <img src="{% static 'suporte/images/email.png' %}" alt="">
+            <input type="email" placeholder="Seu email">
+        </div>
+        <div class="user-input">
+            <textarea placeholder="Seu texto" maxlength="1000"></textarea>
+        </div>
+        <div class="botao-enviar-mensagem">
+            <button type="submit">Enviar mensagem</button>
+        </div>
+    </form>
+</div>
+
+<div class="container">
+    <div class="text-whatsapp">
+        <p>OU</p>
+        <div class="whatsappp-mensagem">
+            <button type="submit"><img src="{% static 'suporte/images/whatsapp.png' %}" alt=""></img>Enviar mensagem pelo Whatsapp</button>
+        </div>
+    </div>
+</div>
+
+{% endblock 'main' %}
+
+
+    
